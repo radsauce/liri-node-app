@@ -6,18 +6,23 @@ exports.spotify = {
 };
 
 // spotify API
-var Spotify = require('node-spotify-api');
+// var Spotify = require('node-spotify-api');
  
-var spotify = new Spotify({
-  id: SPOTIFY_ID,
-  secret: SPOTIFY_SECRET,
-});
+// var spotify = new Spotify({
+//   id: SPOTIFY_ID,
+//   secret: SPOTIFY_SECRET,
+// });
  
-spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
-  if (err) {
-    return console.log('Error occurred: ' + err);
-  }
+// spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+//   if (err) {
+//     return console.log('Error occurred: ' + err);
+//   }
  
-console.log(data); 
-});
+// console.log(data); 
+// });
 
+// //OMDB API
+// var OMDB = require('node-omdb-api')
+// var omdb = new OMDB({
+//   id: '8fd517c8',
+// })
