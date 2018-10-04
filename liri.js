@@ -4,7 +4,42 @@ const keys = require('./keys.js')
 const fs = require('fs')
 const inq = require('inquirer')
 
-
+//Inquiry Logic
+const choice = choice => {
+    switch(choice) {
+        case 'Song Search...':
+        inq.prompt([
+            {
+                type: 'input',
+                message: 'Song Name?',
+                name: 'songChoice'
+            }
+        ])
+        .then(r => spotify(r.songChoice))
+        break
+        case 'Movie Search...':
+        inq.prompt([
+            {
+                type: 'input',
+                message: 'Movie Name?',
+                name: 'movieChoice'
+            }
+        ])
+        .then(r => omdb(r.movieChoice))
+        break
+        case 'Band Tour Date Search...':
+        inq.prompt([
+            {
+                type: 'input',
+                message: 'Which band would you like to see?',
+                name: 'bandChoice'
+            }
+        ])
+        .then(r => bands(r.bandChoice))
+        break
+        
+    }
+}
 //Spotify Search
 const spotify = song => {
     var reqSpotify = require('node-spotify-api');
@@ -51,6 +86,5 @@ const runApp = () => {
         ])
         .then(r => choice(r.userChoice))
     }
-    console.log('Woo')
 }
 runApp()
