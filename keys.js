@@ -5,24 +5,10 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-// spotify API
-// var Spotify = require('node-spotify-api');
- 
-// var spotify = new Spotify({
-//   id: SPOTIFY_ID,
-//   secret: SPOTIFY_SECRET,
-// });
- 
-// spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
-//   if (err) {
-//     return console.log('Error occurred: ' + err);
-//   }
- 
-// console.log(data); 
-// });
+exports.omdb = {
+  id: process.env.OMDB_ID
+};
 
-// //OMDB API
-// var OMDB = require('node-omdb-api')
-// var omdb = new OMDB({
-//   id: '8fd517c8',
-// })
+exports.bit = {
+  id: process.env.BIT_ID
+};

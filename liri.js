@@ -1,21 +1,25 @@
 const request = require('request')
-require("dotenv").config();
+require('dotenv').config();
 const keys = require('./keys.js')
 const fs = require('fs')
 const inq = require('inquirer')
-
+const moment = require('moment')
+const omdb = require('omdb')
 
 //Spotify Search
 const spotify = song => {
     var reqSpotify = require('node-spotify-api');
-    var spotify = new reqSpotify(keys.spotify);
+    var spotify = new reqSpotify({
+        id: keys.spotify.id,
+        secret: keys.spotify.secret
+    });
     spotify.search({
         type: 'track',
         query: song,
     }, (e, d) => {
         if (e) {console.log('An error has occurred!' + e)}
         const data = `
-        Search Results:
+        Spotify Search Results:
         --- --- --- ---
         Artist: ${d.tracks.items[0].artists[0].name}
         Title: ${d.tracks.items[0].name}
@@ -32,25 +36,100 @@ const spotify = song => {
         Album: ${d.tracks.items[2].album.name}
         --- --- --- ---
         `
-        console.log(d)
+        console.log(data)
 
-        fs.appendFile('random.txt', d, e => {
+        fs.appendFile('log.txt', data, e => {
             if (e) {console.log(e)}
+        })
+    })
+    
+}
+//Bands In Town Search
+const bit = band => {
+    var reqBIT = require('moment');
+    request(`https://rest.bandsintown.com/artists/${band}/events?app_id=${keys.bit.id}`, (e, r, d) => {
+        if (e) { console.log(e) }
+        const info = JSON.parse(d)
+        const data = `
+        ${info[0].lineup[0]}'s Upcoming Show:
+        --------------------
+        Venue: ${info[0].venue.name}
+        Location: ${info[0].venue.city}
+        Date: ${moment(info[0].datetime).format('MM/DD/YY')}
+        --------------------
+        `
+        console.log(data)
+       fs.appendFile('log.txt', data, e => {
+        if (e) { console.log(e) }
+        })
+    })
+}
+//Movie Search
+const movie = movie => {
+    request(`http://www.omdbapi.com/?t=${movie}&apikey=${keys.omdb.id}`, (e, r, d) => {
+        if (e) { console.log(e) }
+        const movieChoice = JSON.parse(d)
+        const data = `
+        ${movieChoice.Title} information:
+        --------------------
+        Title: ${movieChoice.Title}
+        Release Year: ${movieChoice.Released}
+        Rating: ${movieChoice.Rated}
+        Actors: ${movieChoice.Actors}
+        Plot: ${movieChoice.Plot}
+        --------------------
+        `
+        console.log(data)
+       fs.appendFile('log.txt', data, e => {
+        if (e) { console.log(e) }
         })
     })
 }
 
+//Inquire selection
+const choice = choice => {
+    switch (choice) {
+        case 'Song Search...':
+        inq.prompt([
+            {
+                type: 'input',
+                name: 'songChoice',
+                message: 'What is the title of the song you would like to find?'
+            }
+        ]).then(answers => spotify(answers.songChoice))
+        break
+        
+        case "Band's Next Show...":
+        inq.prompt([
+            {
+                type: 'input',
+                name: 'bandChoice',
+                message: "What band's next tour date would like to find?"
+            }
+        ]).then(answers => bit(answers.bandChoice))
+        break
+        
+        case 'Movie Search...':
+        inq.prompt([
+            {
+                type: 'input',
+                name: 'movieChoice',
+                message: 'What movie information would like to find?'
+            }
+        ]).then(answers => movie(answers.movieChoice))
+        break            
+    }
+}
 //Run application
 const runApp = () => {
     if (process.argv[2] === 'init') {
         inq.prompt([
             {type: 'list',
-            message: 'Choose which media type to search for!',
             name: 'userChoice',
+            message: 'Choose which media type to search for!',
             choices: ['Song Search...', "Band's Next Show...", 'Movie Search...']}
         ])
-        .then(r => choice(r.userChoice))
+        .then(answers => choice(answers.userChoice))
     }
-    console.log('Woo')
 }
 runApp()
