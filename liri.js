@@ -86,6 +86,53 @@ const movie = movie => {
     })
 }
 
+// //Inquire selection
+// const choice = choice => {
+//     switch (choice) {
+//         case 'Song Search...':
+//         inq.prompt([
+//             {
+//                 type: 'input',
+//                 name: 'songChoice',
+//                 message: 'What is the title of the song you would like to find?'
+//             }
+//         ]).then(answers => spotify(answers.songChoice))
+//         break
+        
+//         case "Band's Next Show...":
+//         inq.prompt([
+//             {
+//                 type: 'input',
+//                 name: 'bandChoice',
+//                 message: "What band's next tour date would like to find?"
+//             }
+//         ]).then(answers => bit(answers.bandChoice))
+//         break
+        
+//         case 'Movie Search...':
+//         inq.prompt([
+//             {
+//                 type: 'input',
+//                 name: 'movieChoice',
+//                 message: 'What movie information would like to find?'
+//             }
+//         ]).then(answers => movie(answers.movieChoice))
+//         break            
+//     }
+// }
+// //Run application
+// const runApp = () => {
+//     if (process.argv[2] === 'init') {
+//         inq.prompt([
+//             {type: 'list',
+//             name: 'userChoice',
+//             message: 'Choose which media type to search for!',
+//             choices: ['Song Search...', "Band's Next Show...", 'Movie Search...']}
+//         ])
+//         .then(answers => choice(answers.userChoice))
+//     }
+// }
+
 //Inquire selection
 const choice = choice => {
     switch (choice) {
@@ -120,16 +167,16 @@ const choice = choice => {
         break            
     }
 }
+
 //Run application
-const runApp = () => {
-    if (process.argv[2] === 'init') {
-        inq.prompt([
-            {type: 'list',
-            name: 'userChoice',
-            message: 'Choose which media type to search for!',
-            choices: ['Song Search...', "Band's Next Show...", 'Movie Search...']}
-        ])
-        .then(answers => choice(answers.userChoice))
-    }
+const runApp = function () {  
+    if (process.argv[2] === 'spotify-this-song') {
+        spotify(process.argv[3])
+    } else if (process.argv[2] === 'concert-this') {
+        bit(process.argv[3])
+    } else if (process.argv[2] === 'movie-this') {
+        movie(process.argv[3])
+    } else console.log('Please input a request and parameter: spotify-this-song "song title", concert-this "band name", or movie-this "movie title"')
 }
+
 runApp()
