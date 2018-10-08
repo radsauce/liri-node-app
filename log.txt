@@ -1,0 +1,34 @@
+
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Rise Against
+        Title: Savior
+        Album: Appeal To Reason
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Aaron Shust
+        Title: My Savior My God
+        Album: Anything Worth Saying
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Iggy Azalea
+        Title: Savior
+        Album: Savior
+        --- --- --- ---
+        
+        Rise Against's Upcoming Show:
+        --------------------
+        Venue: iHeartRadio ALTer Ego
+        Location: Inglewood
+        Date: 01/19/19
+        --------------------
+        
+        Snatch information:
+        --------------------
+        Title: Snatch
+        Release Year: 19 Jan 2001
+        Rating: R
+        Actors: Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt
+        Plot: Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
+        --------------------
+        
