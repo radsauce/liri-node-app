@@ -1,0 +1,180 @@
+
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Rise Against
+        Title: Savior
+        Album: Appeal To Reason
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Aaron Shust
+        Title: My Savior My God
+        Album: Anything Worth Saying
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Iggy Azalea
+        Title: Savior
+        Album: Savior
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Rise Against
+        Title: Savior
+        Album: Appeal To Reason
+        
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Aaron Shust
+        Title: My Savior My God
+        Album: Anything Worth Saying
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Iggy Azalea
+        Title: Savior
+        Album: Savior
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Rise Against
+        Title: Savior
+        Album: Appeal To Reason
+        Preview: null
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Aaron Shust
+        Title: My Savior My God
+        Album: Anything Worth Saying
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Iggy Azalea
+        Title: Savior
+        Album: Savior
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Rise Against
+        Title: Savior
+        Album: Appeal To Reason
+        Preview: https://api.spotify.com/v1/tracks/3asFGFY3uLjMDmML1p0tYm
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Aaron Shust
+        Title: My Savior My God
+        Album: Anything Worth Saying
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Iggy Azalea
+        Title: Savior
+        Album: Savior
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Lil Uzi Vert
+        Title: Top
+        Album: Luv Is Rage
+        Preview: https://p.scdn.co/mp3-preview/d334004a236af2d06064dadd6723eccf2e9d3f4b?cid=140c17ecbc4e41ec917ea63972cde2c0
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Beyoncé
+        Title: Love On Top
+        Album: 4
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Lil Baby
+        Title: To The Top
+        Album: Too Hard
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Berlin
+        Title: Take My Breath Away - Love Theme from "Top Gun"
+        Album: Top Gun - Motion Picture Soundtrack (Special Expanded Edition)
+        Preview: https://p.scdn.co/mp3-preview/fd6cde6ea002bc6c628297ec3a283d5d255cb470?cid=140c17ecbc4e41ec917ea63972cde2c0
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Berlin
+        Title: Take My Breath Away - Love Theme from "Top Gun"
+        Album: Power Ballads - All Out of Love
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Msmd
+        Title: Anthem - Main Title Theme from "Top Gun" - Rock Guitar Version
+        Album: The Very Best of the Rock Guitar Movie Soundtracks (Evergreen Gold Edition)
+        --- --- --- ---
+        
+        Spotify Search Results:
+        --- --- --- ---
+        Artist: Berlin
+        Title: Take My Breath Away - Love Theme from "Top Gun"
+        Album: Top Gun - Motion Picture Soundtrack (Special Expanded Edition)
+        Preview: https://p.scdn.co/mp3-preview/fd6cde6ea002bc6c628297ec3a283d5d255cb470?cid=140c17ecbc4e41ec917ea63972cde2c0
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Berlin
+        Title: Take My Breath Away - Love Theme from "Top Gun"
+        Album: Power Ballads - All Out of Love
+        Preview: https://p.scdn.co/mp3-preview/fd6cde6ea002bc6c628297ec3a283d5d255cb470?cid=140c17ecbc4e41ec917ea63972cde2c0
+        --- --- --- ---
+        --- --- --- ---
+        Artist: Msmd
+        Title: Anthem - Main Title Theme from "Top Gun" - Rock Guitar Version
+        Album: The Very Best of the Rock Guitar Movie Soundtracks (Evergreen Gold Edition)
+        Preview: https://p.scdn.co/mp3-preview/fd6cde6ea002bc6c628297ec3a283d5d255cb470?cid=140c17ecbc4e41ec917ea63972cde2c0
+        --- --- --- ---
+        
+        Rise Against's Upcoming Show:
+        --------------------
+        Venue: iHeartRadio ALTer Ego
+        Location: Inglewood
+        Date: 01/19/19
+        --------------------
+        
+        undefined information:
+        --------------------
+        Title: undefined
+        Release Year: undefined
+        Rating: undefined
+        Actors: undefined
+        Plot: undefined
+        --------------------
+        
+        undefined information:
+        --------------------
+        Title: undefined
+        Release Year: undefined
+        Rating: undefined
+        Actors: undefined
+        Plot: undefined
+        --------------------
+        
+        undefined information:
+        --------------------
+        Title: undefined
+        Release Year: undefined
+        Rating: undefined
+        Actors: undefined
+        Plot: undefined
+        --------------------
+        
+        undefined information:
+        --------------------
+        Title: undefined
+        Release Year: undefined
+        Rating: undefined
+        Actors: undefined
+        Plot: undefined
+        --------------------
+        
+        undefined information:
+        --------------------
+        Title: undefined
+        Release Year: undefined
+        Rating: undefined
+        Actors: undefined
+        Plot: undefined
+        --------------------
+        
