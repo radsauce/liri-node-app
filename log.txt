@@ -1,23 +1,4 @@
 
-        Snatch information:
-        --------------------
-        Title: Snatch
-        Release Year: 19 Jan 2001
-        Rating: 73%
-        Rotten Tomatoes Rating: R
-        Release Country: UK, USA
-        Language: English, Russian
-        Plot: Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.
-        Actors: Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt
-        --------------------
-        
-        Rise Against's Upcoming Show:
-        --------------------
-        Venue: iHeartRadio ALTer Ego
-        Location: Inglewood
-        Date: 01/19/19
-        --------------------
-        
         Spotify Search Results:
         --- --- --- ---
         Artist: Rise Against
@@ -34,4 +15,35 @@
         Title: Savior
         Album: Savior
         --- --- --- ---
+        
+        Rise Against's Upcoming Show:
+        --------------------
+        Venue: iHeartRadio ALTer Ego
+        Location: Inglewood
+        Date: 01/19/19
+        --------------------
+        
+        Top Gun information:
+        --------------------
+        Title: Top Gun
+        Release Year: 16 May 1986
+        Rating: 54%
+        Rotten Tomatoes Rating: PG
+        Release Country: USA
+        Language: English
+        Plot: As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.
+        Actors: Tom Cruise, Kelly McGillis, Val Kilmer, Anthony Edwards
+        --------------------
+        
+        Top Gun information:
+        --------------------
+        Title: Top Gun
+        Release Year: 16 May 1986
+        Rating: PG
+        Rotten Tomatoes Rating: 54%
+        Release Country: USA
+        Language: English
+        Plot: As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.
+        Actors: Tom Cruise, Kelly McGillis, Val Kilmer, Anthony Edwards
+        --------------------
         

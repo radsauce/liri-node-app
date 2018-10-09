@@ -74,8 +74,8 @@ const movie = movie => {
         --------------------
         Title: ${movieChoice.Title}
         Release Year: ${movieChoice.Released}
-        Rating: ${movieChoice.Ratings[1].Value}
-        Rotten Tomatoes Rating: ${movieChoice.Rated}
+        Rating: ${movieChoice.Rated}
+        Rotten Tomatoes Rating: ${movieChoice.Ratings[1].Value}
         Release Country: ${movieChoice.Country}
         Language: ${movieChoice.Language}
         Plot: ${movieChoice.Plot}
