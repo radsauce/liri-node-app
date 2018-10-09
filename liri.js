@@ -74,9 +74,12 @@ const movie = movie => {
         --------------------
         Title: ${movieChoice.Title}
         Release Year: ${movieChoice.Released}
-        Rating: ${movieChoice.Rated}
-        Actors: ${movieChoice.Actors}
+        Rating: ${movieChoice.Ratings[1].Value}
+        Rotten Tomatoes Rating: ${movieChoice.Rated}
+        Release Country: ${movieChoice.Country}
+        Language: ${movieChoice.Language}
         Plot: ${movieChoice.Plot}
+        Actors: ${movieChoice.Actors}
         --------------------
         `
         console.log(data)
@@ -86,7 +89,7 @@ const movie = movie => {
     })
 }
 
-// //Inquire selection
+// //Inquire selection utilizing a list prompt
 // const choice = choice => {
 //     switch (choice) {
 //         case 'Song Search...':

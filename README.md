@@ -1,2 +1,17 @@
 # liri-node-app
-LIRI app
+Welcome to the Language Interpretation and Recognition Interface application!
+
+This application allows a user to enter particular command-line direction to complete three separate tasks:
+  1.) Search Spotify for a particular song title (spotify-this-song)
+  2.) Search Bands In Town for a particular artist's upcoming show (concert-this)
+  3.) Search the Online Movie Data Base for information on a particular movie (movie-this)
+
+The commands are entered as follows:
+<img src="./images/spotify-command.png">
+<img src="./images/bit-command.png">
+<img src="./images/omdb-command.png">
+
+And return, respectively:
+<img src="./images/spotify-result.png">
+<img src="./images/bit-result.png">
+<img src="./images/omdb-result.png">
