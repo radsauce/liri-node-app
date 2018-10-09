@@ -1,2 +1,2 @@
 # liri-node-app
-LIRI appp
+LIRI app
